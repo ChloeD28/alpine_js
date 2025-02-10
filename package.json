@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "sqddsqqds",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -Rf dist && parcel build src/index.html"
+    "test": "parcel",
+    "build": "parcel build --public-url ."
   },
   "author": "chloe",
   "license": "ISC",
